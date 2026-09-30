@@ -1,4 +1,4 @@
-# ⚽🥅 Fuzzy_Football_Score - Sistema Baseado em Conhecimento para Avaliação de Jogadores de Futebol
+# ⚽🥅 Fuzzy_Soccer_Score - Sistema Baseado em Conhecimento para Avaliação de Jogadores de Futebol
 
 Segundo miniprojeto da disciplina de Sistemas Baseados em Conhecimento (SBC).  
 Desenvolvido por: `Arthur Ricartte` e `Felipe Rodrigues`
