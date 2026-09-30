@@ -19,11 +19,11 @@ Mede a intensidade e a imposição física do jogador em disputas diretas (aére
 5. **Fatores Disciplinares** — Cartões
 Avaliam o comportamento disciplinar do jogador, penalizando a nota final conforme a gravidade:
 
-  i. 1 cartão amarelo → penalização leve (0.3)
+  * 1 cartão amarelo → penalização leve (0.3)
 
-  ii. 2 cartões amarelos (vermelho indireto) → penalização severa (1.5)
+  * 2 cartões amarelos (vermelho indireto) → penalização severa (1.5)
 
-  iii. 1 cartão vermelho direto → penalização severa (1.5)
+  * 1 cartão vermelho direto → penalização severa (1.5)
 
 6. **Fator Contextual** — Minutagem
 Registra o tempo efetivo jogado, contextualizando as demais estatísticas. Um jogador com poucos minutos pode ter números menores sem necessariamente ter tido mau desempenho.
