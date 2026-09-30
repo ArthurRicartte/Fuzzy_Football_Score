@@ -1,5 +1,10 @@
-# Fuzzy_Football_Score ⚽🥅
-Programa que aplica regras fuzzy para avaliar o desempenho de um jogador de futebol na partida
+#  ⚽🥅 Fuzzy_Football_Score - Sistema Baseado em Conhecimento para avaliação de jogadores de futebol
+
+Segundo mini-projeto da disciplina de Sistemas Baseados em Conhecimento (SBC).
+
+Desenvolvido por: `Arthur Ricartte` e `Felipe Rodrigues`
+
+Sistema de avaliação de desempenho de jogadores de futebol baseado em lógica fuzzy (Mamdani), com penalizações por cartões amarelos e vermelhos, inspirado em métricas de apps de nota (ex.: Sofascore).
 
 ## 🧩 Elementos do Domínio 
 O domínio é composto por quatro dimensões principais de desempenho, além de fatores disciplinares e contextuais:
