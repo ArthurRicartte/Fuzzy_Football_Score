@@ -4,7 +4,7 @@ Segundo mini-projeto da disciplina de Sistemas Baseados em Conhecimento (SBC).
 
 Desenvolvido por: `Arthur Ricartte` e `Felipe Rodrigues`
 
-Sistema de avaliação de desempenho de jogadores de futebol baseado em lógica fuzzy (Mamdani), com penalizações por cartões amarelos e vermelhos, inspirado em métricas de apps de nota (ex.: Sofascore).
+Sistema de avaliação de desempenho de jogadores de futebol baseado em **lógica fuzzy (Mamdani)**, com penalizações por cartões amarelos e vermelhos, inspirado em métricas de apps de nota (ex.: Sofascore).
 
 ## 🧩 Elementos do Domínio 
 O domínio é composto por quatro dimensões principais de desempenho, além de fatores disciplinares e contextuais:
