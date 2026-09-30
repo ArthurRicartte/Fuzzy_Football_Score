@@ -29,54 +29,66 @@ Avaliam o comportamento disciplinar do jogador, penalizando a nota final conform
 Registra o tempo efetivo jogado, contextualizando as demais estatísticas. Um jogador com poucos minutos pode ter números menores sem necessariamente ter tido mau desempenho.
 
 
-
 ## 📥 Variáveis de Entrada (Antecedentes)
 
-participação	0..5	Gols + assistências
-passes	0..100%	de Precisão
-desarmes	0..10	Ações defensivas
-duelos ganhos	0..15
+participação	0. .5	Gols + assistências
+passes	0. .100%	de Precisão
+desarmes	0. .10	Ações defensivas
+duelos ganhos	0. .15
+
 
 ## 📤 Variável de Saída (Consequente)
 
-nota final	3.0..10.0
+nota final	3.0. .10.0
+
 
 ## 🔺 Conjuntos Fuzzy
 
+
 **Participação em Gols**
+
 baixa → triangular [0, 0, 1]
 
 moderada → triangular [0, 1, 2]
 
 alta → trapezoidal [1, 3, 5, 5]
 
+
 **Passes (%)**
+
 baixa → trapezoidal [0, 0, 50, 70]
 
 media → triangular [60, 75, 90]
 
 excelente → trapezoidal [80, 90, 100, 100]
 
+
 **Desarmes**
+
 poucos → trapezoidal [0, 0, 1, 3]
 
 razoaveis → triangular [2, 4, 6]
 
 muitos → trapezoidal [5, 8, 10, 10]
 
+
 **Duelos Ganhos**
+
 poucos → trapezoidal [0, 0, 2, 5]
 
 medios → triangular [4, 7, 10]
 
 muitos → trapezoidal [8, 12, 15, 15]
 
+
 **Nota**
+
 ruim → triangular [3.0, 3.0, 6.6]
 
 boa → triangular [5.5, 6.6, 7.8]
 
 ótima → triangular [6.6, 10.0, 10.0]
+
 
 ## 🧠 Base de Regras
 
