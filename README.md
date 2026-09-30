@@ -19,11 +19,11 @@ Mede a intensidade e a imposição física do jogador em disputas diretas (aére
 5. **Fatores Disciplinares** — Cartões
 Avaliam o comportamento disciplinar do jogador, penalizando a nota final conforme a gravidade:
 
-  1 cartão amarelo → penalização leve (0.3)
+  * 1 cartão amarelo → penalização leve (0.3)
 
-  2 cartões amarelos (vermelho indireto) → penalização severa (1.5)
+  * 2 cartões amarelos (vermelho indireto) → penalização severa (1.5)
 
-  1 cartão vermelho direto → penalização severa (1.5)
+  * 1 cartão vermelho direto → penalização severa (1.5)
 
 6. **Fator Contextual** — Minutagem
 Registra o tempo efetivo jogado, contextualizando as demais estatísticas. Um jogador com poucos minutos pode ter números menores sem necessariamente ter tido mau desempenho.
@@ -94,29 +94,30 @@ nota final	3.0. .10.0
 
 **Nota ruim**
 
-  R1: participacao_gols.baixa E passes.baixa → nota.ruim
+  * R1: participacao_gols.baixa E passes.baixa → nota.ruim
 
-  R2: desarmes.poucos E duelos.poucos E participacao_gols.baixa → nota.ruim
+  * R2: desarmes.poucos E duelos.poucos E participacao_gols.baixa → nota.ruim
 
-  R3: passes.baixa E desarmes.poucos E participacao_gols.baixa → nota.ruim
+  * R3: passes.baixa E desarmes.poucos E participacao_gols.baixa → nota.ruim
 
 **Nota boa**
 
-  R4: participacao_gols.baixa E passes.media E (desarmes.razoaveis OU duelos.medios) → nota.boa
+  * R4: participacao_gols.baixa E passes.media E (desarmes.razoaveis OU duelos.medios) → nota.boa
 
-  R5: participacao_gols.baixa E passes.excelente → nota.boa
+  * R5: participacao_gols.baixa E passes.excelente → nota.boa
 
-  R6: participacao_gols.baixa E (desarmes.muitos OU duelos.muitos) → nota.boa
+  * R6: participacao_gols.baixa E (desarmes.muitos OU duelos.muitos) → nota.boa
 
 **Nota ótima**
-  R7: participacao_gols.moderada OU participacao_gols.alta → nota.ótima
 
-  R8: passes.excelente E desarmes.muitos → nota.ótima
+  * R7: participacao_gols.moderada OU participacao_gols.alta → nota.ótima
+
+  * R8: passes.excelente E desarmes.muitos → nota.ótima
 
 ## ⛔ Penalizações por Cartões
 
-  - 1 cartão amarelo	-0.3
-  - 2 cartões amarelos	-1.5 (vermelho indireto)
-  - 1 cartão vermelho direto	-1.5
+  *  1 cartão amarelo	-0.3
+  *  2 cartões amarelos	-1.5 (vermelho indireto)
+  *  1 cartão vermelho direto	-1.5
 
 [[Link para o Colab]](https://colab.research.google.com/drive/15pRBJL9nr6iwzt8Bv6Hjg4pzY175yLJX?usp=sharing)
