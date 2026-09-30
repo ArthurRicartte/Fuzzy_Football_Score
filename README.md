@@ -31,18 +31,18 @@ Registra o tempo efetivo jogado, contextualizando as demais estatísticas. Um jo
 
 ## 📥 Variáveis de Entrada (Antecedentes)
 
-participação	0. .5	Gols + assistências
+1. participação	0. .5	Gols + assistências
 
-passes	0. .100%	de Precisão
+2. passes	0. .100%	de Precisão
 
-desarmes	0. .10	Ações defensivas
+3. desarmes	0. .10	Ações defensivas
 
-duelos ganhos	0. .15
+4. duelos ganhos	0. .15
 
 
 ## 📤 Variável de Saída (Consequente)
 
-nota final	3.0. .10.0
+* nota final	3.0. .10.0
 
 
 ## 🔺 Conjuntos Fuzzy
