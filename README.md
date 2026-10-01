@@ -104,4 +104,4 @@ O domínio é composto por quatro dimensões principais de desempenho, além de 
 
 ---
 
-🔗 **[Acesse nosso projeto no Google Colab](https://colab.research.google.com/drive/1vblU1WctcWcyBMgcjx4rt5QUjWumdFCj?usp=sharing)**
+🔗 **[Acesse nosso projeto no Google Colab](https://colab.research.google.com/github/ArthurRicartte/Fuzzy_Soccer_Score/blob/main/FuzzySoccerScore.ipynb)**
